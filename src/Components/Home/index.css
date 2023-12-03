@@ -1,0 +1,33 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+  max-width: 100vw;
+  font-family: 'Roboto';
+}
+.title {
+  align-self: flex-start;
+  justify-self: start;
+  margin: 50px;
+  font-weight: 500;
+  font-size: 25px;
+}
+.loader-container {
+  min-height: 90vh;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+.courses-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.course {
+  list-style-type: none;
+  margin: 40px;
+  display: flex;
+}
